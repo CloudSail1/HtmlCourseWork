@@ -1,0 +1,35 @@
+.tag-test {
+    width: min-content;
+    padding-inline: 4px;
+    padding-bottom: 1px;
+    border-radius: 5px;
+
+    background-color: rgb(97, 87, 234);
+}
+
+.tag-image {
+    width: min-content;
+    padding-inline: 4px;
+    padding-bottom: 1px;
+    border-radius: 5px;
+
+    background-color: rgb(87, 234, 131);
+}
+
+.container-tags {
+    display: flex;
+    justify-content: center;
+}
+
+.tags-tags {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 30em;
+}
+
+.container-tags > .tags-tags > .tag {
+    margin: 1em;
+}

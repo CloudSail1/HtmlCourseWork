@@ -1,0 +1,16 @@
+ .container-connect {
+    display: flex;
+    justify-content: center;
+ }
+
+ .connect {
+    display: flex;
+ }
+
+ .item-connect {
+    margin: 0.5em;
+    padding: 1em;
+    border-radius: 1em;
+    width: 40px;
+    background-color: rgb(143, 203, 255);
+ }
